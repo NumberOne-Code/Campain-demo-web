@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn from Kerala's Top Mentors & Entrepreneurs | No.1 Club</title>
+  <meta name="description" content="Learn from Kerala's top mentors and entrepreneurs. Connect with 20,000+ MSME owners, 100+ masterclasses, and 50+ exclusive events for just ₹899 per month.">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .text-gold { color: #FFC92B; }
+    .bg-gold { background-color: #FFC92B; }
+    .hero-courses {
+      padding: 70px 0 60px;
+      text-align: center;
+      background: radial-gradient(circle at 50% 15%, rgba(7, 99, 106, 0.45) 0%, rgba(1, 20, 21, 0.98) 75%);
+    }
+    .spacious-section {
+      padding: 90px 0;
+    }
+    @media (max-width: 768px) {
+      .spacious-section { padding: 50px 0; }
+      .hero-courses { padding: 50px 0 40px; }
+      .nav-links { display: none !important; }
+    }
+    .hero-course-title {
+      font-size: clamp(34px, 5.5vw, 56px);
+      color: #ffffff;
+      max-width: 960px;
+      margin: 0 auto 20px;
+      line-height: 1.15;
+    }
+    .hero-course-sub {
+      font-size: 19px;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 820px;
+      margin: 0 auto 30px;
+      line-height: 1.65;
+    }
+    .hero-pill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 201, 43, 0.15);
+      border: 1px solid rgba(255, 201, 43, 0.4);
+      color: #FFC92B;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      padding: 6px 18px;
+      border-radius: var(--radius-full);
+      margin-bottom: 22px;
+      text-transform: uppercase;
+    }
+
+    /* First Half Benefits Grid matching screenshot */
+    .benefits-grid-hero {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px 36px;
+      max-width: 900px;
+      margin: 44px auto 0;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 24px;
+      padding: 30px 36px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    @media (max-width: 768px) {
+      .benefits-grid-hero {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 22px 18px;
+      }
+    }
+    .benefit-item-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .benefit-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(13, 45, 48, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .benefit-icon-box svg {
+      width: 26px;
+      height: 26px;
+      color: #FFC92B;
+    }
+    .benefit-title {
+      color: #ffffff;
+      font-size: 16.5px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 3px;
+    }
+    .benefit-desc {
+      color: #8aab99;
+      font-size: 13.5px;
+      line-height: 1.4;
+    }
+
+    .pillar-number {
+      font-family: var(--font-condensed);
+      font-size: 42px;
+      font-weight: 800;
+      color: #FFC92B;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .comparison-box-white {
+      background: #ffffff;
+      color: #011415;
+      border-radius: var(--radius-xl);
+      padding: 38px 36px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+      margin: 40px auto 0;
+      max-width: 860px;
+    }
+    .value-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .value-table th {
+      text-align: left;
+      padding: 12px 14px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #64748b;
+      font-weight: 700;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .value-table td {
+      padding: 13px 14px;
+      border-bottom: 1px solid #f1f5f9;
+      font-size: 14.5px;
+      color: #1e293b;
+      vertical-align: middle;
+    }
+    .value-table tr:hover td {
+      background-color: #fafbfc;
+    }
+    .cost-col {
+      text-align: right;
+      font-weight: 600;
+      color: #ef4444;
+      white-space: nowrap;
+    }
+    .value-table .total-row td {
+      font-weight: 700;
+      font-size: 15px;
+      border-top: 2px solid #cbd5e1;
+      border-bottom: none;
+      background: #f8fafc;
+      color: #0f172a;
+      padding: 14px 14px;
+    }
+    .value-table .total-row .total-cost {
+      color: #dc2626;
+      font-size: 16.5px;
+      font-weight: 800;
+      text-decoration: line-through;
+    }
+    .value-table .highlight-row td {
+      background: #FFF9E6;
+      border-top: 1px solid #FDE68A;
+      padding: 16px 14px;
+    }
+    .highlight-pricing {
+      font-size: 17px;
+      color: #011415;
+    }
+    .highlight-pricing strong {
+      font-weight: 800;
+    }
+    .or-divider {
+      font-size: 13px;
+      color: #94a3b8;
+      font-weight: normal;
+      margin: 0 4px;
+    }
+    .dhanam-free-tag {
+      font-size: 12px;
+      color: #047857;
+      font-weight: 700;
+      margin-top: 3px;
+    }
+    @media (max-width: 640px) {
+      .comparison-box-white {
+        padding: 22px 14px !important;
+        border-radius: 16px !important;
+      }
+      .value-table th {
+        font-size: 10.5px !important;
+        padding: 8px 6px !important;
+      }
+      .value-table td {
+        padding: 11px 6px !important;
+        font-size: 13px !important;
+        line-height: 1.35 !important;
+      }
+      .cost-col {
+        font-size: 13px !important;
+        padding-left: 8px !important;
+      }
+      .highlight-pricing {
+        font-size: 14.5px !important;
+      }
+      .dhanam-free-tag {
+        font-size: 11px !important;
+      }
+    }
+
+    /* Hero Plan Strip with Dhanam placement */
+    .hero-plan-strip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 14px;
+      font-size: 13.5px;
+      color: #94a3b8;
+      flex-wrap: wrap;
+    }
+    .hero-plan-sep {
+      color: rgba(255, 255, 255, 0.2);
+    }
+    .hero-plan-item strong {
+      color: #e2e8f0;
+    }
+    .hero-yearly-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #cbd5e1;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 5px 14px 5px 12px;
+      border-radius: var(--radius-full);
+      transition: all 0.2s ease;
+    }
+    .hero-yearly-link:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 201, 43, 0.4);
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+    .hero-dhanam-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(255, 201, 43, 0.14);
+      border: 1px solid rgba(255, 201, 43, 0.35);
+      padding: 2px 8px;
+      border-radius: 6px;
+      color: #FFC92B;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .hero-chip-arrow {
+      color: #FFC92B;
+      font-size: 13px;
+      transition: transform 0.2s ease;
+    }
+    .hero-yearly-link:hover .hero-chip-arrow {
+      transform: translateX(3px);
+    }
+    @media (max-width: 768px) {
+      .hero-plan-strip {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .hero-plan-sep {
+        display: none;
+      }
+    }
+
+    /* Pricing Billing Subtitle */
+    .pricing-billing-sub {
+      color: #8aab99;
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: -2px;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    .pricing-billing-sub strong {
+      color: #ffffff;
+    }
+
+    /* Dhanam Annual Perk Box in Pricing Card */
+    .dhanam-annual-perk-box {
+      background: linear-gradient(135deg, rgba(255, 201, 43, 0.1) 0%, rgba(5, 150, 105, 0.08) 100%);
+      border: 1px solid rgba(255, 201, 43, 0.35);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin: 0 0 22px 0;
+      text-align: left;
+      transition: all 0.3s ease;
+    }
+    .dhanam-perk-badge-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .dhanam-badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(255, 201, 43, 0.18);
+      color: #FFC92B;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+    .dhanam-worth-tag {
+      color: #34d399;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+    .dhanam-perk-content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .dhanam-perk-logo-col {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .dhanam-perk-logo-img {
+      height: 26px;
+      width: auto;
+      display: block;
+    }
+    .dhanam-perk-text-col {
+      flex: 1;
+    }
+    .dhanam-perk-title {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 3px;
+    }
+    .dhanam-perk-desc {
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+    .pricing-monthly-dhanam-teaser {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 201, 43, 0.2);
+      color: #ffe16d;
+      font-size: 12.5px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .pricing-toggle-capsule {
+      max-width: 330px !important;
+      width: 100%;
+    }
+    .pricing-toggle-btn {
+      white-space: nowrap !important;
+      padding: 9px 14px !important;
+      font-size: 13.5px !important;
+    }
+    .toggle-discount-chip {
+      font-size: 10px;
+      background: #059669;
+      color: #ffffff;
+      padding: 2px 7px;
+      border-radius: 10px;
+      margin-left: 5px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+    @media (max-width: 480px) {
+      .pricing-toggle-capsule {
+        max-width: 300px !important;
+      }
+      .pricing-toggle-btn {
+        font-size: 12px !important;
+        padding: 7px 8px !important;
+      }
+      .toggle-discount-chip {
+        font-size: 9px;
+        padding: 2px 5px;
+        margin-left: 3px;
+      }
+      .pricing-gold-card {
+        padding: 28px 18px !important;
+      }
+      .pricing-card-header {
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        text-align: center;
+      }
+      .dhanam-perk-content {
+        gap: 10px;
+      }
+      .dhanam-perk-logo-col {
+        padding: 4px 8px;
+      }
+      .dhanam-perk-logo-img {
+        height: 22px;
+      }
+    }
+
+    /* Enhanced 3-Step Growth Formula Section */
+    .step-flow-indicator {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin: 0 auto 36px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-full);
+      padding: 6px 18px;
+    }
+    .step-flow-node {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #94a3b8;
+    }
+    .step-flow-node.highlight {
+      color: #FFC92B;
+    }
+    .step-flow-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #FFC92B;
+      box-shadow: 0 0 6px #FFC92B;
+    }
+    .step-flow-arrow {
+      color: rgba(255, 255, 255, 0.2);
+      font-size: 13px;
+    }
+
+    /* Modern Pillar Card */
+    .growth-formula-section .container {
+      max-width: 1220px;
+    }
+    .pillar-card-modern {
+      background: rgba(14, 42, 45, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 22px;
+      padding: 36px 30px 28px;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+    }
+    .pillar-card-modern::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, rgba(255, 201, 43, 0.6), transparent);
+      opacity: 0.7;
+      transition: all 0.3s ease;
+    }
+    .pillar-card-modern:hover {
+      transform: translateY(-6px);
+      border-color: rgba(255, 201, 43, 0.35);
+      background: rgba(16, 48, 52, 0.75);
+      box-shadow: 0 25px 50px -10px rgba(0, 0, 0, 0.65), 0 0 30px rgba(255, 201, 43, 0.1);
+    }
+    .pillar-card-modern:hover::before {
+      opacity: 1;
+      height: 3px;
+      background: linear-gradient(90deg, #FFC92B, #ffe16d);
+    }
+    .pillar-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-icon-box {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 201, 43, 0.12);
+      border: 1px solid rgba(255, 201, 43, 0.25);
+      color: #FFC92B;
+      transition: all 0.3s ease;
+    }
+    .pillar-icon-box.emerald {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.25);
+      color: #34d399;
+    }
+    .pillar-icon-box.cyan {
+      background: rgba(6, 182, 212, 0.12);
+      border-color: rgba(6, 182, 212, 0.25);
+      color: #38bdf8;
+    }
+    .pillar-card-modern:hover .pillar-icon-box {
+      transform: scale(1.05);
+    }
+    .pillar-step-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 11px;
+      border-radius: var(--radius-full);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .pillar-step-pill.gold {
+      color: #FFC92B;
+      border-color: rgba(255, 201, 43, 0.3);
+      background: rgba(255, 201, 43, 0.08);
+    }
+    .pillar-step-pill.emerald {
+      color: #34d399;
+      border-color: rgba(16, 185, 129, 0.3);
+      background: rgba(16, 185, 129, 0.08);
+    }
+    .pillar-step-pill.cyan {
+      color: #38bdf8;
+      border-color: rgba(6, 182, 212, 0.3);
+      background: rgba(6, 182, 212, 0.08);
+    }
+    .pillar-action-name {
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #FFC92B;
+      margin-bottom: 6px;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-heading {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-overview {
+      color: #94a3b8;
+      font-size: 13.5px;
+      line-height: 1.55;
+      margin-bottom: 22px;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-bullets-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 24px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-bullet-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: #cbd5e1;
+      font-size: 13.5px;
+      line-height: 1.45;
+    }
+    .pillar-bullet-icon {
+      width: 17px !important;
+      height: 17px !important;
+      min-width: 17px !important;
+      max-width: 17px !important;
+      min-height: 17px !important;
+      max-height: 17px !important;
+      flex-shrink: 0 !important;
+      margin-top: 2px;
+      color: #FFC92B;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .pillar-bullet-item strong {
+      color: #ffffff;
+    }
+    .pillar-clean-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 16px;
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 12.5px;
+      color: #cbd5e1;
+      line-height: 1.45;
+      position: relative;
+      z-index: 1;
+    }
+    .pillar-clean-footer strong {
+      color: #ffffff;
+    }
+    .pillar-clean-footer .footer-icon {
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    @media (max-width: 900px) {
+      .pillar-card-modern {
+        padding: 30px 24px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="courses.html" class="logo-wrapper">
+        <img src="assets/images/logo.png" alt="No.1 Club Logo" class="logo-img" style="height: 48px; width: auto;">
+      </a>
+      <div class="nav-links">
+        <a href="#popular-courses" class="nav-link">Courses</a>
+        <a href="#mentors" class="nav-link">Mentors</a>
+        <a href="#flywheel" class="nav-link">Network</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#pricing" class="btn btn-gold btn-sm">Join for ₹899 / mo</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-courses">
+    <div class="container">
+      <div class="hero-pill-badge">
+        <span>👑 KERALA'S PREMIER MSME COMMUNITY & LEARNING PLATFORM</span>
+      </div>
+
+      <h1 id="hero-headline" class="hero-course-title">
+        Learn from Kerala's Best Mentors. <br><span class="text-gold">Grow with a Premium Community of 20,000+ Entrepreneurs.</span>
+      </h1>
+
+      <p class="hero-course-sub">
+        Master practical sales, pricing, and business systems in Malayalam from Kerala's most respected business leaders — while building real supplier and customer connections with 20,000+ business owners. All inside one community for only <strong class="text-gold">₹899 per month</strong>.
+      </p>
+
+      <!-- Single Primary CTA (Button from Image 1 removed!) -->
+      <div style="display:flex; justify-content:center; margin-bottom: 20px;">
+        <a href="#pricing" class="btn btn-gold btn-lg" style="font-size: 18px; padding: 16px 40px;">
+          Get Full Access for ₹899 / month →
+        </a>
+      </div>
+
+      <!-- Dual Plan Trust Strip with Dhanam placement -->
+      <div class="hero-plan-strip">
+        <span class="hero-plan-item">⚡ <strong>₹899/month</strong> billed monthly (Cancel anytime)</span>
+        <span class="hero-plan-sep">•</span>
+        <a href="#pricing" class="hero-yearly-link" onclick="if(window.selectYearlyPricing) window.selectYearlyPricing();">
+          <span>Yearly: <strong>₹7,999 / year</strong> billed annually</span>
+          <span class="hero-dhanam-tag">+ Free 1-Yr Dhanam Magazine 🎁</span>
+          <span class="hero-chip-arrow">→</span>
+        </a>
+      </div>
+
+      <!-- First Half Benefits Grid (Matching User Screenshot Exactly!) -->
+      <div class="benefits-grid-hero">
+        <!-- Benefit 1 -->
+        <div class="benefit-item-card">
+          <div class="benefit-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <div class="benefit-title">Connect with <span class="text-gold">20,000+</span> Entrepreneurs</div>
+            <div class="benefit-desc">Connect and interact with powerful entrepreneurs</div>
+          </div>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="benefit-item-card">
+          <div class="benefit-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div>
+            <div class="benefit-title">Access to <span class="text-gold">50+</span> Exclusive Events</div>
+            <div class="benefit-desc">Free access to exclusive networking events</div>
+          </div>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="benefit-item-card">
+          <div class="benefit-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div>
+            <div class="benefit-title">Learn from <span class="text-gold">100+</span> Premium Courses</div>
+            <div class="benefit-desc">Unlimited access to courses with audio</div>
+          </div>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="benefit-item-card">
+          <div class="benefit-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="M9 9h.01"/><path d="M15 15h.01"/></svg>
+          </div>
+          <div>
+            <div class="benefit-title"><span class="text-gold">₹ 150,000+</span> Member Benefits</div>
+            <div class="benefit-desc">Exclusive perks & Free Dhanam Magazine on yearly plans</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Popular Courses Section (Course Hook with Live Thumbnails) -->
+  <section id="popular-courses" class="spacious-section" style="background: #f8fafc; color: #011415;">
+    <div class="container">
+      <div style="text-align: center; max-width: 780px; margin: 0 auto 20px;">
+        <div style="display:inline-flex; align-items:center; gap:8px; margin-bottom:8px;">
+          <h2 style="font-size: clamp(32px, 4.5vw, 46px); color: #0f172a; display:inline-block;">
+            Popular Courses in <span style="color: #07636A; font-family: var(--font-malayalam); font-weight:700;">മലയാളം</span>
+          </h2>
+          <svg width="24" height="24" fill="none" stroke="#07636A" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+        <p style="color: #64748b; font-size: 16px;">
+          Bite-sized, zero-fluff video and audio courses created specifically for Kerala shop owners, distributors, traders, and manufacturers.
+        </p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="course-filter-nav">
+        <button class="course-filter-pill active" data-category="all">All Categories</button>
+        <button class="course-filter-pill" data-category="sales">Sales & Closing</button>
+        <button class="course-filter-pill" data-category="marketing">Marketing & Pricing</button>
+        <button class="course-filter-pill" data-category="business">Business & Leadership</button>
+        <button class="course-filter-pill" data-category="finance">Finance & Cash Flow</button>
+        <button class="course-filter-pill" data-category="tech">AI & Technology</button>
+      </div>
+
+      <!-- 4-Column Course Cards Grid -->
+      <div class="grid-4" id="courses-grid" style="gap: 28px;">
+        
+        <!-- Course 1 -->
+        <div class="course-card-wrapper" data-category="sales">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-sales-closing.webp" alt="Sales Closing" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title font-ml">ലോകത്തിലെ മികച്ച 6 സെയിൽസ് ക്ലോസിങ് ടെക്നിക്കുകൾ</h3>
+                <div class="course-card-instructor">Lajesh Kolath</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.8</span>
+                <span>228 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course-card-wrapper" data-category="sales">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-salesman-strategies.webp" alt="SPIN Selling" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title font-ml">സ്പിൻ സെല്ലിങ് : സെൽ വിത്ത് എ'റ്റിറ്റ്യൂഡ്'</h3>
+                <div class="course-card-instructor">Lajesh Kolath</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.9</span>
+                <span>1,005 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course-card-wrapper" data-category="marketing">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-sell-services.webp" alt="Marketing Plan" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title font-ml">8 - സ്റ്റെപ്പ് മാർക്കറ്റിംഗ് പ്ലാൻ: കൺസെപ്റ്റ് മുതൽ ക്യാംപെയ്ൻ വരെ</h3>
+                <div class="course-card-instructor">Siju Rajan</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.8</span>
+                <span>171 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course-card-wrapper" data-category="sales marketing">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-9-gears.webp" alt="Pricing Psychology" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title font-ml">വിലകൂട്ടി വിൽക്കുന്നതിന്റെ മനശ്ശാസ്ത്രം — 5 സെയിൽസ് സ്ട്രാറ്റജികൾ</h3>
+                <div class="course-card-instructor">Casac Benjali</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.9</span>
+                <span>101 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="course-card-wrapper" data-category="business">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-team-leader.webp" alt="Team Leader" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title">Team Leader — Way to a Winning Business Team</h3>
+                <div class="course-card-instructor">Dr. Madhu Bhaskaran</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.9</span>
+                <span>1,248 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 6 -->
+        <div class="course-card-wrapper" data-category="finance">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-working-capital.webp" alt="Working Capital" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title">Working Capital — How to Grow Without Debt Risk</h3>
+                <div class="course-card-instructor">Finance Expert Panel</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.7</span>
+                <span>342 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 7 -->
+        <div class="course-card-wrapper" data-category="business">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-productivity-mastery.webp" alt="Productivity" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title">Productivity Mastery: 20 Daily Steps to MSME Success</h3>
+                <div class="course-card-instructor">Binoy John</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.8</span>
+                <span>179 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 8 -->
+        <div class="course-card-wrapper" data-category="business tech">
+          <div class="course-card-showcase">
+            <div class="course-card-thumb-wrap">
+              <img src="assets/images/course-performance-system.webp" alt="Performance System" class="course-card-thumb">
+              <span class="course-lang-badge font-ml">മലയാളം</span>
+            </div>
+            <div class="course-card-body">
+              <div>
+                <h3 class="course-card-title">Setting Up Staff Performance & Appraisal Systems</h3>
+                <div class="course-card-instructor">Vinu Narayanan</div>
+              </div>
+              <div class="course-card-meta">
+                <span class="course-rating-stars">★★★★★ 4.7</span>
+                <span>156 Active Learners</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Hook Banner -->
+      <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 18px; color: #334155; font-weight: 600; margin-bottom: 16px;">
+          You get all 100+ masterclasses and the entire 20,000+ MSME network in one membership.
+        </p>
+        <a href="#pricing" class="btn btn-gold btn-lg" style="box-shadow: 0 10px 25px rgba(255,201,43,0.4);">
+          Unlock Everything for Only ₹899 / month →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Strategic Pivot: Network is Your Net Worth -->
+  <section id="flywheel" class="spacious-section hero-gradient growth-formula-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 840px; margin: 0 auto 30px;">
+        <span class="hero-pill-badge">✨ THE 3-STEP GROWTH FORMULA</span>
+        <h2 style="font-size: clamp(30px, 4.5vw, 48px); color: #ffffff; margin-bottom: 18px; line-height: 1.2;">
+          Courses Give You Knowledge. <br><span class="text-gold">Your Network Gives You Your Net Worth.</span>
+        </h2>
+        <p style="color: #cbd5e1; font-size: 17px; line-height: 1.7; max-width: 740px; margin: 0 auto;">
+          Watching videos alone won't grow your business. Real breakthroughs happen when proven mentor strategies meet high-trust entrepreneur connections. That is why No.1 Club is engineered on 3 synergistic steps:
+        </p>
+      </div>
+
+      <!-- Step Progression Flow Indicator -->
+      <div style="text-align: center;">
+        <div class="step-flow-indicator">
+          <span class="step-flow-node highlight"><span class="step-flow-dot"></span> 01 LEARN</span>
+          <span class="step-flow-arrow">➔</span>
+          <span class="step-flow-node highlight"><span class="step-flow-dot" style="background:#34d399; box-shadow:0 0 6px #34d399;"></span> <span style="color:#34d399;">02 NETWORK</span></span>
+          <span class="step-flow-arrow">➔</span>
+          <span class="step-flow-node highlight"><span class="step-flow-dot" style="background:#38bdf8; box-shadow:0 0 6px #38bdf8;"></span> <span style="color:#38bdf8;">03 GROW</span></span>
+        </div>
+      </div>
+
+      <div class="grid-3" style="gap: 28px;">
+        <!-- Pillar 1: LEARN -->
+        <div class="pillar-card-modern">
+          <div>
+            <div class="pillar-top-row">
+              <div class="pillar-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path><path d="M6 6h10"></path><path d="M6 10h10"></path><path d="m9 14 5 2.5L9 19Z" fill="currentColor"></path></svg>
+              </div>
+              <span class="pillar-step-pill gold">STEP 01</span>
+            </div>
+
+            <div class="pillar-action-name">LEARN</div>
+            <h3 class="pillar-heading">From Top Business Mentors</h3>
+            <p class="pillar-overview">
+              Tested Malayalam business frameworks directly from Kerala's leading industry titans.
+            </p>
+
+            <ul class="pillar-bullets-list">
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>100+ Masterclasses</strong> on sales, cash flow & pricing</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>Full Audio Library</strong> for on-the-go learning anytime</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>Direct Guidance</strong> from Dr. Madhu Bhaskaran & titans</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pillar-clean-footer">
+            <span class="footer-icon">🎯</span>
+            <span><strong>Outcome:</strong> Eliminate costly trial & error in your business</span>
+          </div>
+        </div>
+
+        <!-- Pillar 2: NETWORK -->
+        <div class="pillar-card-modern">
+          <div>
+            <div class="pillar-top-row">
+              <div class="pillar-icon-box emerald">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <span class="pillar-step-pill emerald">STEP 02</span>
+            </div>
+
+            <div class="pillar-action-name" style="color: #34d399;">NETWORK</div>
+            <h3 class="pillar-heading">Active Entrepreneur Community</h3>
+            <p class="pillar-overview">
+              Connect directly with verified business owners across 14 districts to build high-trust partnerships.
+            </p>
+
+            <ul class="pillar-bullets-list">
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #34d399;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>20,000+ MSME Owners</strong> on active private community</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #34d399;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>50+ Free Offline Events</strong> across all 14 Kerala districts</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #34d399;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>High-Trust B2B Deals</strong>, supplier tie-ups & referrals</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pillar-clean-footer">
+            <span class="footer-icon">🤝</span>
+            <span><strong>Outcome:</strong> High-trust connections that boost your net worth</span>
+          </div>
+        </div>
+
+        <!-- Pillar 3: GROW -->
+        <div class="pillar-card-modern">
+          <div>
+            <div class="pillar-top-row">
+              <div class="pillar-icon-box cyan">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+              </div>
+              <span class="pillar-step-pill cyan">STEP 03</span>
+            </div>
+
+            <div class="pillar-action-name" style="color: #38bdf8;">GROW</div>
+            <h3 class="pillar-heading">Scale with 24/7 AI & Perks</h3>
+            <p class="pillar-overview">
+              Put learning and network into swift execution with instant AI assistance and exclusive perks.
+            </p>
+
+            <ul class="pillar-bullets-list">
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #38bdf8;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>24/7 NOA AI Assistant</strong> for instant GST & business advice</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #38bdf8;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>Ready-Made Templates</strong> for legal contracts & invoices</span>
+              </li>
+              <li class="pillar-bullet-item">
+                <svg class="pillar-bullet-icon" width="17" height="17" style="color: #38bdf8;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+                <span><strong>₹1,50,000+ Perks</strong> in software discounts & tools</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pillar-clean-footer">
+            <span class="footer-icon">🚀</span>
+            <span><strong>Outcome:</strong> Faster execution, lower overhead & higher profits</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Influencers Panel Section -->
+  <section id="mentors" class="spacious-section" style="background: #000c0d;">
+    <div class="container">
+      <div style="text-align: center; max-width: 780px; margin: 0 auto 50px;">
+        <span class="hero-pill-badge">UNIFIED MASTERMINDS</span>
+        <h2 style="font-size: clamp(30px, 4.5vw, 44px); color: #fff; margin-bottom: 16px;">
+          Kerala's Major Business Influencers. <span class="text-gold">All on One Platform.</span>
+        </h2>
+        <p style="color: #94a3b8; font-size: 16px;">
+          Normally, hiring or attending private workshops by these top mentors costs between ₹10,000 to ₹50,000 each. Inside No.1 Club, their masterclasses and live guidance are unlocked for just <strong>₹899 per month</strong>.
+        </p>
+      </div>
+
+      <div class="grid-3" style="gap: 24px;">
+        <!-- Mentor 1 -->
+        <div class="influencer-card">
+          <img src="assets/images/influencer-madhu-bhaskaran.webp" alt="Dr. Madhu Bhaskaran" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Dr. Madhu Bhaskaran</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Chief Mentor & Co-Founder</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            Kerala's pioneer HRD trainer and coach who has transformed over 100,000+ entrepreneurs and executives over three decades.
+          </p>
+        </div>
+
+        <!-- Mentor 2 -->
+        <div class="influencer-card">
+          <img src="assets/images/influencer-santosh-nair.png" alt="Santosh Nair" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Santosh Nair</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Eminent Entrepreneur Coach (₹3Cr Backer)</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            India's iconic entrepreneurial coach and creator of the T.I.G.E.R. business philosophy, empowering MSMEs to reach next-level scale.
+          </p>
+        </div>
+
+        <!-- Mentor 3 -->
+        <div class="influencer-card">
+          <img src="assets/images/influencer-casac-benjali.webp" alt="Casac Benjali" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Casac Benjali</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Pricing & High-Ticket Selling Expert</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            Specialist in retail positioning and the psychology of premium pricing, helping Kerala merchants stop price wars.
+          </p>
+        </div>
+
+        <!-- Mentor 4 -->
+        <div class="influencer-card">
+          <img src="assets/images/instructor-binoy.jpg" alt="Kochouseph Chittilapilly" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Kochouseph Chittilapilly</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Angel Backer · V-Guard & Wonderla</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            Industrial titan who built an electrical and entertainment empire from Kerala, supporting grassroots MSMEs.
+          </p>
+        </div>
+
+        <!-- Mentor 5 -->
+        <div class="influencer-card">
+          <img src="assets/images/instructor-lajesh.jpg" alt="Lajesh Kolath" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Lajesh Kolath</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Sales Mastery & Growth Specialist</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            Co-Founder and sales practitioner coaching businesses on objection handling and high-conversion closing.
+          </p>
+        </div>
+
+        <!-- Mentor 6 -->
+        <div class="influencer-card">
+          <img src="assets/images/instructor-harikrishnan.jpg" alt="Siju Rajan" class="influencer-img">
+          <h4 style="color:#fff; font-size: 19px; margin-bottom: 4px;">Siju Rajan</h4>
+          <div style="color:#FFC92B; font-size: 13px; font-weight:700; margin-bottom: 10px;">Strategic Marketing & Systems Coach</div>
+          <p style="color:#cbd5e1; font-size: 13px; line-height: 1.6;">
+            Practical marketing strategist helping MSMEs create predictable customer acquisition campaigns without heavy agency costs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Real Business Value Stack: All Benefits vs ₹899/month -->
+  <section class="spacious-section main-gradient" style="padding-top: 50px; padding-bottom: 60px;">
+    <div class="container">
+      <div class="comparison-box-white">
+        <div style="text-align:center; margin-bottom: 28px;">
+          <span style="background:#FFF9E6; color:#946800; font-weight:800; font-size:11px; padding:4px 14px; border-radius:12px; text-transform:uppercase; letter-spacing:0.8px;">
+            MEMBERSHIP VALUE
+          </span>
+          <h3 style="font-family: var(--font-condensed); font-size: clamp(26px, 3.5vw, 36px); color: #011415; margin: 10px 0 6px; font-weight: 800;">
+            Buying Separately vs No.1 Club Access
+          </h3>
+          <p style="color: #64748b; font-size: 15px; margin: 0;">
+            See what an entrepreneur in Kerala typically spends to access these business benefits independently:
+          </p>
+        </div>
+
+        <table class="value-table">
+          <thead>
+            <tr>
+              <th>What You Would Pay Separately</th>
+              <th style="text-align:right;">Standalone Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Annual Membership to a Business Networking Club in Kerala</td>
+              <td class="cost-col">₹40,000+</td>
+            </tr>
+            <tr>
+              <td>100+ Masterclasses by Kerala's Top Business Mentors & Titans</td>
+              <td class="cost-col">₹35,000</td>
+            </tr>
+            <tr>
+              <td>Delegate Passes to 50+ In-Person Meets & District PowerTalks</td>
+              <td class="cost-col">₹15,000</td>
+            </tr>
+            <tr>
+              <td>24/7 AI Business, GST & Legal Consultant (NOA AI)</td>
+              <td class="cost-col">₹18,000</td>
+            </tr>
+            <tr>
+              <td>Business Contract Templates, Legal Docs & Software Partner Deals</td>
+              <td class="cost-col">₹1,50,000+</td>
+            </tr>
+            <tr>
+              <td>1-Year Dhanam Business Magazine Print Subscription</td>
+              <td class="cost-col">₹1,200</td>
+            </tr>
+            <tr class="total-row">
+              <td>Total Cost if Purchased Separately</td>
+              <td class="cost-col total-cost">₹2,59,200+</td>
+            </tr>
+            <tr class="highlight-row">
+              <td>
+                <strong style="font-size: 16px; color:#011415;">No.1 Club All-Access Pass (All Benefits + Full Network)</strong>
+                <div style="font-size: 12.5px; color: #64748b; font-weight: normal; margin-top: 2px;">Unlocks all business pillars & tools • Cancel anytime</div>
+              </td>
+              <td style="text-align:right; color:#011415;">
+                <div class="highlight-pricing">
+                  <strong>₹899 / month</strong> <span class="or-divider">or</span> <strong>₹7,999 / year</strong> <small style="font-size:12px; color:#64748b;">(billed annually)</small>
+                </div>
+                <div class="dhanam-free-tag">+ Free 1-Year Dhanam Magazine on Yearly Plan</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frosted Glass Pricing Card (Defaulting to ₹899 per month as requested!) -->
+  <section id="pricing" class="spacious-section hero-gradient">
+    <div class="container">
+      <div style="text-align: center; max-width: 750px; margin: 0 auto 30px;">
+        <span class="hero-pill-badge">UNLIMITED ACCESS</span>
+        <h2 style="font-size: clamp(32px, 4.5vw, 48px); color: #fff; margin-bottom: 14px;">
+          Simple Pricing, as it should be.
+        </h2>
+        <p style="color: #94a3b8; font-size: 16px;">
+          Unlock every single course, the 24/7 NOA AI assistant, and the 20,000+ entrepreneur network.
+        </p>
+      </div>
+
+      <!-- Live Authentic Frosted Glass Pricing Card -->
+      <div class="pricing-section-container">
+        <div class="pricing-gold-card">
+          <div class="pricing-card-header">
+            <span class="hero-pill-badge" style="margin-bottom: 8px;">ALL-INCLUSIVE MEMBERSHIP</span>
+            <h2 class="pricing-card-title">GOLD ACCESS</h2>
+          </div>
+
+          <!-- Monthly / Yearly Capsule Toggle -->
+          <div class="pricing-toggle-capsule">
+            <button id="toggle-monthly" class="pricing-toggle-btn active" type="button">Monthly</button>
+            <button id="toggle-yearly" class="pricing-toggle-btn" type="button">
+              Yearly <span class="toggle-discount-chip">SAVE 26%</span>
+            </button>
+          </div>
+
+          <!-- Main Price Display -->
+          <div class="pricing-main-display">
+            <span id="pricing-amount" class="pricing-amount-huge">₹ 899</span>
+            <span id="pricing-period" class="pricing-period-unit">/ month</span>
+          </div>
+
+          <!-- Billing Cycle Subtitle -->
+          <div id="pricing-billing-sub" class="pricing-billing-sub">
+            billed monthly · Cancel anytime
+          </div>
+
+          <!-- Sub Strike Price & Save Badge -->
+          <div class="pricing-sub-strike-row">
+            <span id="pricing-strike" class="pricing-strike-price">₹ 1,499</span>
+            <span id="pricing-save-badge" class="pricing-save-badge">SAVE ₹ 600</span>
+          </div>
+
+          <!-- Dedicated Dhanam Annual Perk Box (Shown when Yearly is selected) -->
+          <div id="dhanam-annual-perk-box" class="dhanam-annual-perk-box" style="display: none;">
+            <div class="dhanam-perk-badge-row">
+              <span class="dhanam-badge-pill">🎁 ANNUAL MEMBER PRIVILEGE</span>
+              <span class="dhanam-worth-tag">FREE ₹1,200 VALUE</span>
+            </div>
+            <div class="dhanam-perk-content">
+              <div class="dhanam-perk-logo-col">
+                <img src="assets/images/dhanam-logo.png" alt="Dhanam Business Media" class="dhanam-perk-logo-img">
+              </div>
+              <div class="dhanam-perk-text-col">
+                <div class="dhanam-perk-title">Free 1-Year Dhanam Magazine Subscription</div>
+                <div class="dhanam-perk-desc">Kerala's premier business publication delivered to your doorstep every month. Included free with your Yearly Access.</div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Checkmark List (Exact Live Match) -->
+          <ul class="pricing-feature-list">
+            <!-- Dhanam Magazine Bonus Feature (Shown on Yearly) -->
+            <li id="dhanam-pricing-feature" class="pricing-feature-item" style="display: none; color: #FFC92B;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span><strong>FREE 1-Year Dhanam Business Magazine</strong> print subscription delivered home (Worth ₹1,200)</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Connect and Network with 20,000+ Kerala Entrepreneurs & Experts</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Free Entry to 50+ PowerTalk Networking Events Across Kerala</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Unlimited Access to 100+ Premium Business Courses in Malayalam</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Full Access to Audio Learning Library (Learn while traveling)</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>24/7 NOA AI Business Assistant with enhanced usage limits</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Special Discounts & Partner Perks (₹1,50,000+ Member Benefits)</span>
+            </li>
+            <li class="pricing-feature-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+              <span>Free Verified Digital Business Card</span>
+            </li>
+          </ul>
+
+          <a id="pricing-cta-btn" href="https://numberoneacademy.app.link/" class="pricing-submit-btn">
+            Get Monthly Access — ₹899
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Risk Reversal Banner -->
+      <div style="max-width: 860px; margin: 40px auto 0; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--radius-md); padding: 24px; text-align: center;">
+        <h4 style="color: #FFC92B; font-size: 18px; margin-bottom: 6px;">🛡️ Absolute Peace of Mind: No Lock-In</h4>
+        <p style="color: #cbd5e1; font-size: 14px; max-width: 680px; margin: 0 auto;">
+          Cancel anytime with 1-click in the app. No questions asked and no penalty fees. You keep full access to all your courses and community benefits until your paid period ends.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="spacious-section" style="background: #000c0d;">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto 40px;">
+        <span class="hero-pill-badge">FREQUENTLY ASKED QUESTIONS</span>
+        <h2 style="font-size: clamp(28px, 4vw, 42px); color: #fff; margin-bottom: 12px;">
+          Everything You Need to Know
+        </h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" name="faq" open>
+          <summary class="faq-question">Do I have to purchase each course separately?</summary>
+          <div class="faq-answer">
+            No! That is the core advantage of No.1 Club. For just ₹899 per month, you unlock our entire catalog of 100+ business courses, future course releases, and the complete audio library at zero additional charge.
+          </div>
+        </details>
+
+        <details class="faq-item" name="faq">
+          <summary class="faq-question">How do courses help me connect with real business partners?</summary>
+          <div class="faq-answer">
+            Inside the app, every course module connects directly into topic-specific discussion channels where 20,000+ verified MSME owners in Kerala ask questions, share vendor contacts, and collaborate. Plus, members get free entry to offline PowerTalk networking events across Kerala.
+          </div>
+        </details>
+
+        <details class="faq-item" name="faq">
+          <summary class="faq-question">Are the courses taught in Malayalam?</summary>
+          <div class="faq-answer">
+            Yes! Practical courses and audio modules are recorded in clear, everyday Malayalam so shopkeepers, traders, and small manufacturers can learn comfortably without confusing English jargon.
+          </div>
+        </details>
+
+        <details class="faq-item" name="faq">
+          <summary class="faq-question">Can I listen to courses while driving or at my shop?</summary>
+          <div class="faq-answer">
+            Yes. We provide a full audio learning library that runs on low bandwidth. You can listen to lessons while driving, commuting, or managing your store.
+          </div>
+        </details>
+
+        <details class="faq-item" name="faq">
+          <summary class="faq-question">How does the Free Dhanam Business Magazine offer work?</summary>
+          <div class="faq-answer">
+            When you join on the Yearly Membership plan at <strong>₹7,999 / year (billed annually)</strong>, you save 26% (just ~₹666/month) and receive a complimentary 1-year subscription to Dhanam Business Media (Kerala’s #1 business magazine, valued at ₹1,200). Print editions are delivered directly to your doorstep each month alongside full digital edition access.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Clean - Zero WhatsApp) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="logo-wrapper" style="margin-bottom: 14px;">
+            <img src="assets/images/logo.png" alt="No.1 Club Logo" class="logo-img" style="height:36px;">
+            <span class="logo-text" style="font-size: 18px;">NO.1 CLUB</span>
+          </div>
+          <p style="font-size: 13px; line-height: 1.6; max-width: 320px;">
+            NumberOne Edtech Private Limited, Kochi, Kerala. Empowering MSME entrepreneurs through networking, vernacular learning, and AI-powered growth tools.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Overview</a></li>
+            <li><a href="#popular-courses">100+ Business Courses</a></li>
+            <li><a href="#mentors">Kerala Mentors</a></li>
+            <li><a href="#flywheel">20,000+ Entrepreneur Network</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Membership</h4>
+          <ul class="footer-links">
+            <li><a href="#pricing">Gold Access (₹899/mo)</a></li>
+            <li><a href="#pricing">Member Perks & Benefits</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Help & Support</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:support@theno1.club">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 NumberOne Edtech Private Limited. All rights reserved.</div>
+        <div style="color: #94a3b8; font-size: 13px;">
+          Learn from Kerala's Best Mentors · Grow with 20,000+ Entrepreneurs
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
