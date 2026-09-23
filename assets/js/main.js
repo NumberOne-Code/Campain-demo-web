@@ -55,11 +55,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const ctaBtn = document.getElementById('pricing-cta-btn');
   const dhanamFeature = document.getElementById('dhanam-pricing-feature');
 
+  window.setPricingMode = setPricingMode;
+
   window.selectYearlyPricing = function() {
     setPricingMode('yearly');
     const pricingEl = document.getElementById('pricing');
     if (pricingEl) {
       pricingEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const card = pricingEl.querySelector('.pricing-gold-card');
+      if (card) {
+        card.classList.remove('pricing-highlight-pulse');
+        // Trigger reflow to restart animation if already played
+        void card.offsetWidth;
+        card.classList.add('pricing-highlight-pulse');
+        setTimeout(() => card.classList.remove('pricing-highlight-pulse'), 1800);
+      }
     }
   };
 
@@ -90,11 +100,11 @@ document.addEventListener('DOMContentLoaded', function() {
       if (toggleMonthly) toggleMonthly.classList.remove('active');
       
       if (priceAmount) priceAmount.textContent = '₹ 7,999';
-      if (pricePeriod) pricePeriod.textContent = '/ per year';
-      if (pricingBillingSub) pricingBillingSub.innerHTML = 'billed annually <span style="color:#cbd5e1; font-weight:normal;">(Just ₹666/month)</span>';
-      if (strikePrice) strikePrice.textContent = '₹ 10,788';
+      if (pricePeriod) pricePeriod.textContent = '/ year';
+      if (pricingBillingSub) pricingBillingSub.innerHTML = 'billed annually · <span style="color:#34d399; font-weight:700;">effectively just ~₹666/month</span>';
+      if (strikePrice) strikePrice.textContent = '₹ 14,999';
       if (saveBadge) {
-        saveBadge.textContent = 'SAVE 26% · BEST VALUE';
+        saveBadge.textContent = 'SAVE ₹ 7,000 (47% OFF)';
         saveBadge.style.background = '#059669';
       }
       if (dhanamPerkBox) {
